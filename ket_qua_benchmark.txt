@@ -1,0 +1,104 @@
+BENCHMARK CÁ NHÂN — TRẦN THỊ THU HIỀN
+Chiến lược: heading
+Chunk size: 700
+Embedding: lexical hash (unigram + bigram)
+Tổng chunks: 260
+
+THỐNG KÊ TÀI LIỆU
+- shopee-chinh-sach-bao-hanh-san-pham: 7 chunks, avg_length=516.3
+- shopee-chinh-sach-chong-gian-lan-nguoi-ban: 16 chunks, avg_length=517.9
+- shopee-chinh-sach-tra-hang-hoan-tien-nguoi-ban: 20 chunks, avg_length=461.6
+- shopee-chinh-sach-tra-hang-hoan-tien-nguoi-mua: 43 chunks, avg_length=492.1
+- shopee-dieu-khoan-dich-vu-shopee-mall: 65 chunks, avg_length=539.9
+- shopee-phuong-thuc-gui-hang-hoan-tra: 13 chunks, avg_length=543.2
+- shopee-quy-che-hoat-dong-san: 22 chunks, avg_length=525.0
+- shopee-quy-dinh-chung-tra-hang-hoan-tien: 13 chunks, avg_length=585.7
+- shopee-quy-dinh-dang-ban-san-pham: 61 chunks, avg_length=421.4
+
+KẾT QUẢ 5 CÂU HỎI
+
+[1] Bảo hành sản phẩm thông qua Shopee mất bao lâu?
+Filter: {'audience': 'buyer'}
+Gold: Dự kiến từ 20 đến 45 ngày làm việc, tính từ lúc Shopee nhận được sản phẩm.
+  Top-1 score=0.348958 doc_id=shopee-chinh-sach-bao-hanh-san-pham section=Chính sách bảo hành cho sản phẩm mua tại Shopee > 4. THỜI GIAN BẢO HÀNH: > b. Bảo hành thông qua Shopee relevant=True
+    # Chính sách bảo hành cho sản phẩm mua tại Shopee ## 4. THỜI GIAN BẢO HÀNH: #### b. Bảo hành thông qua Shopee Trường hợp quý khách gửi sản phẩm bảo hành về Shopee, chúng tôi sẽ gửi thông báo xác nhận đến quý khách khi Shopee nhận được sản phẩm. Thời gian bảo h
+  Top-2 score=0.304396 doc_id=shopee-chinh-sach-bao-hanh-san-pham section=Chính sách bảo hành cho sản phẩm mua tại Shopee > 1. ĐIỀU KIỆN BẢO HÀNH:Sản phẩm được bảo hành miễn phí nếu sản phẩm đó hội đủ các điều kiện sau: relevant=False
+    # Chính sách bảo hành cho sản phẩm mua tại Shopee ## 1. ĐIỀU KIỆN BẢO HÀNH:Sản phẩm được bảo hành miễn phí nếu sản phẩm đó hội đủ các điều kiện sau: Những trường hợp không được bảo hành hoặc phát sinh phí bảo hành: Vi phạm một trong những điều kiện bảo hành mi
+  Top-3 score=0.283066 doc_id=shopee-chinh-sach-bao-hanh-san-pham section=Chính sách bảo hành cho sản phẩm mua tại Shopee > 4. THỜI GIAN BẢO HÀNH: > a. Bảo hành tại nhà sản xuất relevant=False
+    # Chính sách bảo hành cho sản phẩm mua tại Shopee ## 4. THỜI GIAN BẢO HÀNH: #### a. Bảo hành tại nhà sản xuất Sản phẩm cung cấp được đảm bảo hàng chính hãng nên Shopee khuyến khích quý khách gửi sản phẩm trực tiếp đến địa chỉ bảo hành được đề cập trong phần mô
+Answer: Bảo hành thông qua Shopee [Nguồn: shopee-chinh-sach-bao-hanh-san-pham] Trường hợp quý khách gửi sản phẩm bảo hành về Shopee, chúng tôi sẽ gửi thông báo xác nhận đến quý khách khi Shopee nhận được sản phẩm. [Nguồn: shopee-chinh-sach-bao-hanh-san-pham] Thời gian bảo hành sản phẩm của quý khách dự kiến từ 20 ngày đến 45 ngày làm việc tính từ lúc Shopee nhận được sản phẩm, tùy thuộc vào linh kiện cần thay thế của Hãng và Shopee sẽ thông báo chi tiết đến quý khách sau khi có thông tin từ bên bảo hành [Nguồn: shopee-chinh-sach-bao-hanh-san-pham]
+Relevant rank: 1
+Top-3 đủ các ý của gold answer: True
+
+[2] Sản phẩm cần thỏa những điều kiện gì để được bảo hành miễn phí?
+Filter: {'audience': 'buyer'}
+Gold: Lỗi kỹ thuật do nhà sản xuất; còn trong thời hạn bảo hành; có hóa đơn điện tử hoặc mã đơn hàng; phiếu/tem bảo hành còn nguyên vẹn đối với đồ điện gia dụng.
+  Top-1 score=0.406362 doc_id=shopee-chinh-sach-bao-hanh-san-pham section=Chính sách bảo hành cho sản phẩm mua tại Shopee > 1. ĐIỀU KIỆN BẢO HÀNH:Sản phẩm được bảo hành miễn phí nếu sản phẩm đó hội đủ các điều kiện sau: relevant=False
+    # Chính sách bảo hành cho sản phẩm mua tại Shopee ## 1. ĐIỀU KIỆN BẢO HÀNH:Sản phẩm được bảo hành miễn phí nếu sản phẩm đó hội đủ các điều kiện sau: Những trường hợp không được bảo hành hoặc phát sinh phí bảo hành: Vi phạm một trong những điều kiện bảo hành mi
+  Top-2 score=0.329755 doc_id=shopee-chinh-sach-bao-hanh-san-pham section=Chính sách bảo hành cho sản phẩm mua tại Shopee > 1. ĐIỀU KIỆN BẢO HÀNH:Sản phẩm được bảo hành miễn phí nếu sản phẩm đó hội đủ các điều kiện sau: relevant=True
+    # Chính sách bảo hành cho sản phẩm mua tại Shopee ## 1. ĐIỀU KIỆN BẢO HÀNH:Sản phẩm được bảo hành miễn phí nếu sản phẩm đó hội đủ các điều kiện sau: Sản phẩm bị lỗi kỹ thuật do nhà sản xuất Còn trong thời hạn bảo hành (trên phiếu bảo hành hoặc trên hệ thống bả
+  Top-3 score=0.239927 doc_id=shopee-chinh-sach-bao-hanh-san-pham section=Chính sách bảo hành cho sản phẩm mua tại Shopee > 4. THỜI GIAN BẢO HÀNH: > a. Bảo hành tại nhà sản xuất relevant=False
+    # Chính sách bảo hành cho sản phẩm mua tại Shopee ## 4. THỜI GIAN BẢO HÀNH: #### a. Bảo hành tại nhà sản xuất Sản phẩm cung cấp được đảm bảo hàng chính hãng nên Shopee khuyến khích quý khách gửi sản phẩm trực tiếp đến địa chỉ bảo hành được đề cập trong phần mô
+Answer: ĐIỀU KIỆN BẢO HÀNH:Sản phẩm được bảo hành miễn phí nếu sản phẩm đó hội đủ các điều kiện sau: [Nguồn: shopee-chinh-sach-bao-hanh-san-pham] Vi phạm một trong những điều kiện bảo hành miễn phí ở mục A. [Nguồn: shopee-chinh-sach-bao-hanh-san-pham] Sản phẩm  cung cấp được đảm bảo hàng chính hãng nên Shopee khuyến khích quý khách gửi sản phẩm trực tiếp đến địa chỉ bảo hành được đề cập trong phần mô tả chi tiết của sản phẩm để được hỗ trợ bảo hành trong thời gian nhanh nhấtThời gian bảo hành trung bình từ vài ngày tùy thuộc vào linh kiện cần thay thế và Trung tâm bảo hành sẽ thông báo cụ thể đến quý khách [Nguồn: shopee-chinh-sach-bao-hanh-san-pham]
+Relevant rank: 2
+Top-3 đủ các ý của gold answer: True
+
+[3] Thời hạn gửi yêu cầu Trả hàng/Hoàn tiền với từng loại đơn hàng là bao lâu?
+Filter: {'audience': 'buyer'}
+Gold: Đơn thông thường: 15 ngày sau khi giao thành công; thực phẩm tươi sống/đông lạnh: 24 giờ; nếu chưa bấm Đã nhận được hàng: 20 ngày từ lúc lấy hàng thành công.
+  Top-1 score=0.496258 doc_id=shopee-quy-dinh-chung-tra-hang-hoan-tien section=Những quy định chung về Trả hàng/Hoàn tiền của Shopee > 1. Điều kiện Trả hàng/Hoàn tiền của Shopee > 1.2. Thời gian tối đa để gửi yêu cầu trả hàng hoàn tiền cho Shopee relevant=True
+    # Những quy định chung về Trả hàng/Hoàn tiền của Shopee ## 1. Điều kiện Trả hàng/Hoàn tiền của Shopee ### 1.2. Thời gian tối đa để gửi yêu cầu trả hàng hoàn tiền cho Shopee Đối với các đơn hàng khác: 15 ngày kể từ lúc đơn hàng được cập nhật trạng thái ‘Giao hà
+  Top-2 score=0.486888 doc_id=shopee-chinh-sach-tra-hang-hoan-tien-nguoi-mua section=Chính sách Trả hàng và Hoàn tiền (dành cho Người Mua) > 3. ĐIỀU KIỆN YÊU CẦU TRẢ HÀNG/HOÀN TIỀN > 3.1. Người Mua đồng ý rằng Người Mua chỉ có thể yêu cầu trả hàng/hoàn tiền trong các trường hợp sau: relevant=False
+    # Chính sách Trả hàng và Hoàn tiền (dành cho Người Mua) ## 3. ĐIỀU KIỆN YÊU CẦU TRẢ HÀNG/HOÀN TIỀN ### 3.1. Người Mua đồng ý rằng Người Mua chỉ có thể yêu cầu trả hàng/hoàn tiền trong các trường hợp sau: 3.2. Người Mua có thể gửi yêu cầu trả hàng/hoàn tiền tro
+  Top-3 score=0.469721 doc_id=shopee-chinh-sach-tra-hang-hoan-tien-nguoi-mua section=Chính sách Trả hàng và Hoàn tiền (dành cho Người Mua) > 3. ĐIỀU KIỆN YÊU CẦU TRẢ HÀNG/HOÀN TIỀN > 3.1. Người Mua đồng ý rằng Người Mua chỉ có thể yêu cầu trả hàng/hoàn tiền trong các trường hợp sau: relevant=False
+    # Chính sách Trả hàng và Hoàn tiền (dành cho Người Mua) ## 3. ĐIỀU KIỆN YÊU CẦU TRẢ HÀNG/HOÀN TIỀN ### 3.1. Người Mua đồng ý rằng Người Mua chỉ có thể yêu cầu trả hàng/hoàn tiền trong các trường hợp sau: Một số trường hợp Người Mua có nhu cầu trả hàng/hoàn tiề
+Answer: Bạn vẫn có thể gửi yêu cầu Trả hàng/Hoàn tiền sau khi đã bấm nút ‘Đã nhận được hàng’ và vẫn còn trong thời hạn 15 ngày Trả hàng/Hoàn tiền quy định của Shopee [Nguồn: shopee-quy-dinh-chung-tra-hang-hoan-tien] Thời gian tối đa để gửi yêu cầu trả hàng hoàn tiền cho Shopee [Nguồn: shopee-quy-dinh-chung-tra-hang-hoan-tien] Người Mua có thể gửi yêu cầu trả hàng/hoàn tiền trong vòng 15 (mười lăm) ngày kể từ lúc đơn hàng được cập nhật giao hàng thành công. [Nguồn: shopee-chinh-sach-tra-hang-hoan-tien-nguoi-mua]
+Relevant rank: 1
+Top-3 đủ các ý của gold answer: False
+
+[4] Người bán được đăng bán hàng hóa còn bao nhiêu hạn sử dụng?
+Filter: {'audience': 'seller'}
+Gold: Còn ít nhất 30% thời hạn sử dụng và ít nhất 30 ngày đến ngày hết hạn.
+  Top-1 score=0.433070 doc_id=shopee-quy-dinh-dang-ban-san-pham section=Quy định về đăng bán sản phẩm trên Shopee > 2. Quy định về hạn sử dụng của sản phẩm chính relevant=True
+    # Quy định về đăng bán sản phẩm trên Shopee ## 2. Quy định về hạn sử dụng của sản phẩm chính a. Người Bán chỉ được phép bán các loại hàng hóa mà khi giao đi phải còn ít nhất 30% thời hạn sử dụng và còn ít nhất 30 ngày, tính từ thời điểm hiện tại đến ngày hết h
+  Top-2 score=0.366934 doc_id=shopee-quy-dinh-dang-ban-san-pham section=Quy định về đăng bán sản phẩm trên Shopee > 1. Danh sách các sản phẩm bắt buộc phải có hạn sử dụng trên bao bì > g. Thực phẩm chức năng; relevant=False
+    # Quy định về đăng bán sản phẩm trên Shopee ## 1. Danh sách các sản phẩm bắt buộc phải có hạn sử dụng trên bao bì #### g. Thực phẩm chức năng; h. Các sản phẩm khác bắt buộc phải có hạn sử dụng theo quy định của Nghị định số 43/2017/NĐ-CP và các văn bản quy phạ
+  Top-3 score=0.315046 doc_id=shopee-quy-dinh-dang-ban-san-pham section=Quy định về đăng bán sản phẩm trên Shopee > 3. Quy định riêng với một số ngành hàng > 3.6. Bách hóa Online relevant=False
+    # Quy định về đăng bán sản phẩm trên Shopee ## 3. Quy định riêng với một số ngành hàng ### 3.6. Bách hóa Online a. Thực phẩm khô: Đăng đầy đủ thông tin nguồn gốc, xuất xứ, hạn sử dụng. Riêng đối với các mặt hàng dễ hư hỏng, cần lưu ý cách sử dụng, bảo quản thí
+Answer: Người Bán chỉ được phép bán các loại hàng hóa mà khi giao đi phải còn ít nhất 30% thời hạn sử dụng và còn ít nhất 30 ngày, tính từ thời điểm hiện tại đến ngày hết hạn. [Nguồn: shopee-quy-dinh-dang-ban-san-pham] Mọi trường hợp Người Mua nhận được sản phẩm thực phẩm đã hết hạn sử dụng do Người Bán không nêu rõ hạn sử dụng trong mô tả sản phẩm được xem như Người Bán đăng bán hàng hết hạn sử dụng, và sẽ bị xử lý theo quy định của Shopee. [Nguồn: shopee-quy-dinh-dang-ban-san-pham] Đối với mặt hàng thực phẩm, đặc biệt là thực phẩm có hạn sử dụng dưới 30 ngày, Người Bán cần ghi rõ hạn sử dụng trên mô tả sản phẩm và tự sắp xếp vận chuyển khi có đơn hàng phát sinh. [Nguồn: shopee-quy-dinh-dang-ban-san-pham]
+Relevant rank: 1
+Top-3 đủ các ý của gold answer: True
+
+[5] Thời hạn xử lý yêu cầu trả hàng/hoàn tiền là bao lâu?
+Nhánh: buyer
+Filter: {'audience': 'buyer'}
+Gold: Người mua có thể gửi yêu cầu trong vòng 15 ngày kể từ khi giao hàng thành công.
+  Top-1 score=0.509172 doc_id=shopee-chinh-sach-tra-hang-hoan-tien-nguoi-mua section=Chính sách Trả hàng và Hoàn tiền (dành cho Người Mua) > 3. ĐIỀU KIỆN YÊU CẦU TRẢ HÀNG/HOÀN TIỀN > 3.1. Người Mua đồng ý rằng Người Mua chỉ có thể yêu cầu trả hàng/hoàn tiền trong các trường hợp sau: relevant=False
+    # Chính sách Trả hàng và Hoàn tiền (dành cho Người Mua) ## 3. ĐIỀU KIỆN YÊU CẦU TRẢ HÀNG/HOÀN TIỀN ### 3.1. Người Mua đồng ý rằng Người Mua chỉ có thể yêu cầu trả hàng/hoàn tiền trong các trường hợp sau: Một số trường hợp Người Mua có nhu cầu trả hàng/hoàn tiề
+  Top-2 score=0.488827 doc_id=shopee-quy-dinh-chung-tra-hang-hoan-tien section=Những quy định chung về Trả hàng/Hoàn tiền của Shopee > 1. Điều kiện Trả hàng/Hoàn tiền của Shopee > 1.2. Thời gian tối đa để gửi yêu cầu trả hàng hoàn tiền cho Shopee relevant=False
+    # Những quy định chung về Trả hàng/Hoàn tiền của Shopee ## 1. Điều kiện Trả hàng/Hoàn tiền của Shopee ### 1.2. Thời gian tối đa để gửi yêu cầu trả hàng hoàn tiền cho Shopee Đối với các đơn hàng khác: 15 ngày kể từ lúc đơn hàng được cập nhật trạng thái ‘Giao hà
+  Top-3 score=0.449198 doc_id=shopee-chinh-sach-tra-hang-hoan-tien-nguoi-mua section=Chính sách Trả hàng và Hoàn tiền (dành cho Người Mua) > 3. ĐIỀU KIỆN YÊU CẦU TRẢ HÀNG/HOÀN TIỀN > 3.1. Người Mua đồng ý rằng Người Mua chỉ có thể yêu cầu trả hàng/hoàn tiền trong các trường hợp sau: relevant=False
+    # Chính sách Trả hàng và Hoàn tiền (dành cho Người Mua) ## 3. ĐIỀU KIỆN YÊU CẦU TRẢ HÀNG/HOÀN TIỀN ### 3.1. Người Mua đồng ý rằng Người Mua chỉ có thể yêu cầu trả hàng/hoàn tiền trong các trường hợp sau: Để làm rõ, Người Mua sẽ không thể thực hiện yêu cầu Trả
+Answer: Bạn vẫn có thể gửi yêu cầu Trả hàng/Hoàn tiền sau khi đã bấm nút ‘Đã nhận được hàng’ và vẫn còn trong thời hạn 15 ngày Trả hàng/Hoàn tiền quy định của Shopee [Nguồn: shopee-quy-dinh-chung-tra-hang-hoan-tien] Một số trường hợp Người Mua có nhu cầu trả hàng/hoàn tiền sau thời hạn trên, Shopee sẽ xem xét và có thể hỗ trợ Người Mua được trả hàng/hoàn tiền trong phạm vi phù hợp với Chính Sách Shopee. [Nguồn: shopee-chinh-sach-tra-hang-hoan-tien-nguoi-mua] Thời gian tối đa để gửi yêu cầu trả hàng hoàn tiền cho Shopee [Nguồn: shopee-quy-dinh-chung-tra-hang-hoan-tien]
+Relevant rank: không có trong top-3
+Top-3 đủ các ý của gold answer: False
+Nhánh: seller
+Filter: {'audience': 'seller'}
+Gold: Người bán cần phản hồi trong vòng 02 ngày lịch kể từ khi nhận thông báo.
+  Top-1 score=0.534812 doc_id=shopee-chinh-sach-tra-hang-hoan-tien-nguoi-ban section=Chính sách Trả hàng và Hoàn tiền (dành cho Người Bán) > 3. QUYỀN CỦA NGƯỜI BÁN relevant=False
+    # Chính sách Trả hàng và Hoàn tiền (dành cho Người Bán) ## 3. QUYỀN CỦA NGƯỜI BÁN Khi nhận được yêu cầu trả hàng và/hoặc hoàn tiền từ phía Người Mua, Shopee sẽ xem xét và quyết định cho Người Mua được trả hàng/hoàn tiền, đồng thời thông báo (i) về yêu cầu trả
+  Top-2 score=0.521557 doc_id=shopee-dieu-khoan-dich-vu-shopee-mall section=Điều khoản Dịch vụ của Shopee Mall > 1.       Chính Sách Trả Hàng và Hoàn Tiền của Shopee Mall > 1.9.     Thời hạn và điều kiện Người Mua tại Shopee Mall được phép yêu cầu trả hàng: > 1.9.2.  Quy trình xử lý yêu cầu trả hàng hoàn tiền của Shopee Mall áp dụng cho Người Bán tại Shopee Mall relevant=False
+    # Điều khoản Dịch vụ của Shopee Mall ## 1. Chính Sách Trả Hàng và Hoàn Tiền của Shopee Mall ### 1.9. Thời hạn và điều kiện Người Mua tại Shopee Mall được phép yêu cầu trả hàng: #### 1.9.2. Quy trình xử lý yêu cầu trả hàng hoàn tiền của Shopee Mall áp dụng cho
+  Top-3 score=0.503367 doc_id=shopee-dieu-khoan-dich-vu-shopee-mall section=Điều khoản Dịch vụ của Shopee Mall > 1.       Chính Sách Trả Hàng và Hoàn Tiền của Shopee Mall relevant=False
+    # Điều khoản Dịch vụ của Shopee Mall ## 1. Chính Sách Trả Hàng và Hoàn Tiền của Shopee Mall Shopee có quyền từ chối bất kỳ Yêu Cầu Trả Hàng/Hoàn Tiền nào được hoàn thành sau Thời Gian Yêu Cầu Trả Hàng, hoặc Sản Phẩm mà Người Mua yêu cầu hoàn trả không được gửi
+Answer: Khi nhận được yêu cầu trả hàng và/hoặc hoàn tiền từ phía Người Mua, Shopee sẽ xem xét và quyết định cho Người Mua được trả hàng/hoàn tiền, đồng thời thông báo (i) về yêu cầu trả hàng/hoàn tiền của Người Mua hoặc (ii) quyết định xử lý yêu cầu trả hàng/hoàn tiền của Shopee cho Người Bán trên Ứng Dụng Shopee và/hoặc thư điện tử và/hoặc tin nhắn điện thoại. [Nguồn: shopee-chinh-sach-tra-hang-hoan-tien-nguoi-ban] Trong hầu hết các trường hợp, Shopee sẽ xử lý và đưa ra quyết định cuối cùng liên quan đến yêu cầu trả hàng hoàn tiền của Người Mua trong vòng 05 ngày (không kể thứ bảy, chủ nhật và ngày lễ) kể từ thời điểm Shopee nhận được yêu cầu hoàn tiền hoặc nhận được Sản Phẩm Hoàn Trả về từ Người Mua. [Nguồn: shopee-dieu-khoan-dich-vu-shopee-mall] Shopee có quyền từ chối bất kỳ Yêu Cầu Trả Hàng/Hoàn Tiền nào được hoàn thành sau Thời Gian Yêu Cầu Trả Hàng, hoặc Sản Phẩm mà Người Mua yêu cầu hoàn trả không được gửi đến Trung Tâm Xử Lý Trả Hàng của Shopee hoặc trả về Địa chỉ của Người Bán Shopee Mall - theo yêu cầu của Shopee tùy vào trường hợp cụ thể theo Chính sách của Shopee trong từng thời điểm trong vòng 06 (sáu) ngày lịch kể từ ngày yêu cầu trả hàng/hoàn tiền: [Nguồn: shopee-dieu-khoan-dich-vu-shopee-mall]
+Relevant rank: không có trong top-3
+Top-3 đủ các ý của gold answer: False
+A/B không filter:
+  Top-1 score=0.534812 doc_id=shopee-chinh-sach-tra-hang-hoan-tien-nguoi-ban audience=seller
+  Top-2 score=0.521557 doc_id=shopee-dieu-khoan-dich-vu-shopee-mall audience=seller
+  Top-3 score=0.509172 doc_id=shopee-chinh-sach-tra-hang-hoan-tien-nguoi-mua audience=buyer
+
+TỔNG KẾT
+Top-3 chứa chunk liên quan: 4/5
+Điểm retrieval theo vị trí: 6/10

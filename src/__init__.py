@@ -18,6 +18,8 @@ from .embeddings import (
     _mock_embed,
 )
 from .models import Document
+from .clause_chunker import ClauseChunker
+from .heading_chunker import HeadingChunker
 from .store import EmbeddingStore
 
 __all__ = [
@@ -25,6 +27,8 @@ __all__ = [
     "FixedSizeChunker",
     "SentenceChunker",
     "RecursiveChunker",
+    "HeadingChunker",
+    "ClauseChunker",
     "ChunkingStrategyComparator",
     "compute_similarity",
     "EmbeddingStore",

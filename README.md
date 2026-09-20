@@ -262,3 +262,32 @@ Xem chi tiết tại `docs/SCORING.md`. Tóm tắt:
 ```bash
 pytest tests/ -v
 ```
+
+## Chạy Benchmark Shopee
+
+Chạy riêng HeadingChunker bằng embedding cục bộ, không cần API key:
+
+```bash
+python bench.py --strategy heading --chunk-size 700 --provider lexical
+```
+
+Chạy đối chứng bốn chiến lược bằng OpenAI embedding:
+
+```bash
+pip install openai
+```
+
+Tạo file `.env` cục bộ (file này đã được `.gitignore`):
+
+```text
+OPENAI_API_KEY=your-key-here
+OPENAI_EMBEDDING_MODEL=text-embedding-3-small
+```
+
+Sau đó chạy:
+
+```bash
+python bench.py --all-strategies --provider openai --output so_sanh_4_chien_luoc.txt
+```
+
+Có thể thay `openai` bằng `gemini` và cấu hình `GEMINI_API_KEY`. Không commit API key hoặc file `.env` lên GitHub.
